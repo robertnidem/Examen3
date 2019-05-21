@@ -10,28 +10,54 @@ import UIKit
 
 class DiscografiaViewController: UIViewController {
 
-    @IBAction func primerActo(_ sender: UIButton) {
-        performSegue(withIdentifier: "primerActo", sender: nil)
-        
+
+   /* override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        <#code#>
+    }*/
+    @IBOutlet weak var primerActo: UIButton!
+    
+    @IBOutlet weak var sentimientos: UIButton!
+    @IBOutlet weak var requiem: UIButton!
+    
+    @IBOutlet weak var raices: UIButton!
+    
+    @IBAction func primerActoButton(_ sender: Any) {
+        performSegue(withIdentifier: "disco", sender: primerActo)
     }
     
-    @IBAction func sentimientos(_ sender: UIButton) {
-        performSegue(withIdentifier: "sentimientos", sender: nil)
+    @IBAction func sentimientosButton(_ sender: Any) {
+        performSegue(withIdentifier: "disco", sender: sentimientos)
     }
     
-    @IBAction func requiem(_ sender: UIButton) {
-        performSegue(withIdentifier: "requiem", sender: nil)
+    @IBAction func requiemButton(_ sender: Any) {
+        performSegue(withIdentifier: "disco", sender: requiem)
     }
     
-    @IBAction func raices(_ sender: UIButton) {
-        performSegue(withIdentifier: "raices", sender: nil)
+    @IBAction func raicesButton(_ sender: Any) {
+        performSegue(withIdentifier: "disco", sender: raices)
     }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let sender = sender as? UIButton else {return}
+        
+        if sender == primerActo {
+            segue.destination.navigationItem.title = "Primer Acto"
+        } else if sender == sentimientos {
+            segue.destination.navigationItem.title = "Sentimientos"
+        } else if sender == requiem{
+            segue.destination.navigationItem.title = "Requiem"
+        }else if sender == raices{
+            segue.destination.navigationItem.title = "Raices"
+        }
+        
+    }
 
     /*
     // MARK: - Navigation

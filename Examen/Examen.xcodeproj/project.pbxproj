@@ -15,9 +15,10 @@
 		FA7345C42277615900120CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7345C22277615900120CA7 /* Main.storyboard */; };
 		FA7345C62277615900120CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7345C52277615900120CA7 /* Assets.xcassets */; };
 		FA7345C92277615900120CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7345C72277615900120CA7 /* LaunchScreen.storyboard */; };
-		FA7345D122776C5D00120CA7 /* TriviaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7345D022776C5D00120CA7 /* TriviaController.swift */; };
 		FA93E6202277C71400F7C052 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E61F2277C71400F7C052 /* TriviaViewController.swift */; };
 		FA93E6222277CA5B00F7C052 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA93E6212277CA5B00F7C052 /* StoreViewController.swift */; };
+		FAE340D622935C4900FC381C /* Trvie2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE340D522935C4900FC381C /* Trvie2ViewController.swift */; };
+		FAE340D822936B9600FC381C /* Store2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE340D722936B9600FC381C /* Store2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,9 +32,10 @@
 		FA7345C52277615900120CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7345C82277615900120CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7345CA2277615900120CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FA7345D022776C5D00120CA7 /* TriviaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaController.swift; sourceTree = "<group>"; };
 		FA93E61F2277C71400F7C052 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		FA93E6212277CA5B00F7C052 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		FAE340D522935C4900FC381C /* Trvie2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trvie2ViewController.swift; sourceTree = "<group>"; };
+		FAE340D722936B9600FC381C /* Store2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +73,12 @@
 				FA7345C02277615900120CA7 /* ViewController.swift */,
 				FA7345C22277615900120CA7 /* Main.storyboard */,
 				FA61F3482283A8E000B3CDB9 /* DIiscosTableViewController.swift */,
+				FAE340D522935C4900FC381C /* Trvie2ViewController.swift */,
 				FA7345C52277615900120CA7 /* Assets.xcassets */,
 				FA7345C72277615900120CA7 /* LaunchScreen.storyboard */,
+				FAE340D722936B9600FC381C /* Store2ViewController.swift */,
 				FA7345CA2277615900120CA7 /* Info.plist */,
 				FA61F34A2283A8FD00B3CDB9 /* Cancion.swift */,
-				FA7345D022776C5D00120CA7 /* TriviaController.swift */,
 				FA93E61F2277C71400F7C052 /* TriviaViewController.swift */,
 				FA93E6212277CA5B00F7C052 /* StoreViewController.swift */,
 			);
@@ -156,10 +159,11 @@
 				FA61F3492283A8E000B3CDB9 /* DIiscosTableViewController.swift in Sources */,
 				FA93E6222277CA5B00F7C052 /* StoreViewController.swift in Sources */,
 				FA7345C12277615900120CA7 /* ViewController.swift in Sources */,
+				FAE340D822936B9600FC381C /* Store2ViewController.swift in Sources */,
 				FA93E6202277C71400F7C052 /* TriviaViewController.swift in Sources */,
-				FA7345D122776C5D00120CA7 /* TriviaController.swift in Sources */,
 				FA61F34D2283AAD200B3CDB9 /* DiscografiaViewController.swift in Sources */,
 				FA7345BF2277615900120CA7 /* AppDelegate.swift in Sources */,
+				FAE340D622935C4900FC381C /* Trvie2ViewController.swift in Sources */,
 				FA61F34B2283A8FD00B3CDB9 /* Cancion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
